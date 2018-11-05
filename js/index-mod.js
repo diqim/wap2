@@ -1,3 +1,4 @@
+header('Content-Type: application/javascript');
 var app = angular.module("indexApp", ['ngRoute']);
 app.config(function($routeProvider){
   $routeProvider.
